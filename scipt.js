@@ -21,7 +21,7 @@
         /* choose a word */
         currentWord = words[Math.floor(Math.random() * words.length)];
 
-        /* make #man and #output blank, create vars for later access */
+        /* made #man and #output blank, create vars for later access */
         output = document.getElementById("output");
         man = document.getElementById("man");
         guessInput = document.getElementById("letter");
@@ -31,7 +31,7 @@
 
         document.getElementById("letter").value = '';
 
-        /* make sure guess button is enabled */
+        /* made sure guess button is enabled */
         guessButton = document.getElementById("guess");
         guessInput.style.display = 'inline';
         guessButton.style.display = 'inline';
