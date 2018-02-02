@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    padding-left: 0em;
+}
+
+body {
+    background: url(cute-young-teen-girl-communicating-tablet-computer-cartoon-vector-illustration-isolated-white-background-smiling-her-75066911.jpg) no-repeat;
+    font-family: sans-serif;
+    position: absolute;
+    top:30%;
+    left: 40%;
+}
+
+.letter {
+    display: inline-block;
+    list-style: none;
+    width: 20px;
+    margin: 0 5px;
+    border-bottom: 1px solid black;
+    text-align: center;
+    color: white;
+}
+
+.current-word {
+    list-style: none;
+    position: relative;
+}
+
+.output {
+    opacity: 0;
+    transition: opacity 1s ease;
+    z-index: auto;
+}
+
+.correct {
+    background-color: yellowgreen;
+    transition: all 1s ease;
+}
+
+.error {
+    color: red;
+    opacity: 1;
+}
+
+.warning {
+    color: orange;
+    opacity: 1;
+}
+
+.win {
+    color: green;
+    opacity: 1;
+}
