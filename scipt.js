@@ -6,7 +6,7 @@
         /* start config options */
         availableLetters = "abcdefghijklmnopqrstuvwxyz";
         lives = 5;
-        words = ["cat", "dog", "cow", "reindeer"];
+        words = ["cat", "dog", "cow", "reindeer","phone","duck"];
         messages = {
             win: 'You win!',
             lose: 'Game over!',

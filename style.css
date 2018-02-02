@@ -7,8 +7,19 @@ body {
     background: url(cute-young-teen-girl-communicating-tablet-computer-cartoon-vector-illustration-isolated-white-background-smiling-her-75066911.jpg) no-repeat;
     font-family: sans-serif;
     position: absolute;
-    top:30%;
+    top:10%;
     left: 40%;
+}
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Walter Turncoat', cursive;
+    color: blue;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Walter Turncoat', cursive;
+    color: fuchsia;
 }
 
 .letter {
@@ -18,7 +29,7 @@ body {
     margin: 0 5px;
     border-bottom: 1px solid black;
     text-align: center;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 .current-word {
@@ -48,6 +59,10 @@ body {
 }
 
 .win {
-    color: green;
+    color: limegreen;
     opacity: 1;
+}
+
+footer { 
+    display: block;
 }
