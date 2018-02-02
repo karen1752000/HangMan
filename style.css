@@ -35,6 +35,8 @@ p {
 .current-word {
     list-style: none;
     position: relative;
+    color: blue;
+    font-family: 'Walter Turncoat', cursive;
 }
 
 .output {
